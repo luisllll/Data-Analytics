@@ -1,12 +1,6 @@
-edem2021
+LUIS LLORET LLINARES
+
+PROYECTOS MASTER DATA ANALYTICS
 
 
-# Profesores
-#### Pedro Nieto
-#### Miguel Angel Sotomayor
-#### Esteban Chiner
-#### Roberto López
-#### Ruben Sanchís
-
-# Alumnos
-#Luis Lloret
+!(https://pbs.twimg.com/profile_images/1222846251127001093/pVdYmIDl_400x400.jpg)
