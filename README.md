@@ -1,3 +1,12 @@
-# Data-Analytics
-Data Analytics projects
-![logo](https://www.momapublicidad.com/wp-content/uploads/2018/05/LOGO-EDEM.jpg)
+edem2021
+
+
+# Profesores
+#### Pedro Nieto
+#### Miguel Angel Sotomayor
+#### Esteban Chiner
+#### Roberto López
+#### Ruben Sanchís
+
+# Alumnos
+#Luis Lloret
