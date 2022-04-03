@@ -36,25 +36,25 @@ id_subperfil=1
 
 #############IMPORTAR TABLAS###########################
 #obtener encuesta
-encuesta = pd.read_sql("select * from claveinet.dbo.MLVariablesEmpresa", conn)
+encuesta = pd.read_sql("select * from ****.dbo.MLVariablesEmpresa", conn)
 
 #obtener data frame variables empresa
-variables_emp = pd.read_sql("select * from claveinet.dbo.empresas", conn)
+variables_emp = pd.read_sql("select * from ****.dbo.empresas", conn)
 
 #obtener data frame variables relación empresas
-variables_rel = pd.read_sql("select * from claveinet.dbo.relacionEmpresa", conn)
+variables_rel = pd.read_sql("select * from ****.dbo.relacionEmpresa", conn)
 
 #tabla relación id perfil y su descripción
-id_perf_desc = pd.read_sql("select * from claveinet.dbo.perfiles", conn)
+id_perf_desc = pd.read_sql("select * from ****.dbo.perfiles", conn)
 
 #tabla relacion idperfiles idempresa
-idperf_idempresa = pd.read_sql("select * from claveinet.dbo.perfilesEmpresa", conn)
+idperf_idempresa = pd.read_sql("select * from *****.perfilesEmpresa", conn)
 
 #tabla descripción tipos de perfil
-idperf_type = pd.read_sql("select * from claveinet.dbo.tiposPerfil", conn)
+idperf_type = pd.read_sql("select * from ****.dbo.tiposPerfil", conn)
 
 #tabla variables con id variables
-idvar_var = pd.read_sql("select * from claveinet.dbo.MLvariables", conn)
+idvar_var = pd.read_sql("select * from ****.dbo.MLvariables", conn)
 
 #######################################################
 
@@ -287,7 +287,7 @@ df = pd.DataFrame(list(zip(id_empresa, id_perfil,id_tipo,id_empresa_dest,resulta
 
 cursor = conn.cursor()
 
-sqlcommand=("INSERT INTO claveinet.dbo.MLResultados([id_empresa],[id_perfil],[id_tipo],[id_empresa_dest],[resultado]) VALUES (?,?,?,?,?)")
+sqlcommand=("INSERT INTO ****.dbo.MLResultados([id_empresa],[id_perfil],[id_tipo],[id_empresa_dest],[resultado]) VALUES (?,?,?,?,?)")
 
 #values=ranking.index.tolist()
 
